@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 main {
   line-height: 25px;
@@ -12,7 +13,6 @@ ul li{
 }
 a {
   text-decoration: none;
-  color: #2A3166;
 }
 
 
@@ -21,25 +21,31 @@ a {
 
 /* Colors */
 header{
-  background-color: #F1F1F5;
+  background-color: #2C3333;
 }
 footer {
-  background-color: #F1F1F5;
+  background-color: #E7F6F2;
 }
 body {
-  background-color: #F1F1F5;
+  background-color: #E7F6F2;
 }
 .titles-main {
-  color:#2A3166;
+  color:#395B64;
 }
 .header-name {
-  color: #2A3166;
+  color: #A5C9CA;
 }
 .top-links {
-  color: #2A3166;
+  color: #A5C9CA;
 }
 .bottom-links {
-  color: #2A3166;
+  color: #395B64;
+}
+.bottom-link-colors {
+  color:#395B64;
+}
+.top-link-colors {
+  color: #A5C9CA;
 }
 
 
@@ -68,6 +74,10 @@ header {
   padding: 13px 0 0 30px;
   text-decoration: underline;
 }
+.top-links:hover {
+  opacity: .8;
+  transition-duration: 300ms;
+}
 
 
 
@@ -82,13 +92,17 @@ footer {
   font-weight: bold;
   padding: 32px 0 32px 0;
   text-align: center;
-
 }
 .bottom-links {
   padding: 0 1% 0 1%;
+  opacity: .8;
 }
 #email-link {
   text-decoration: underline;
+}
+.bottom-links:hover {
+  opacity: 1;
+  transition-duration: 300ms;
 }
 
 
@@ -162,26 +176,75 @@ h2 {
 .projects-23 {
   position: relative;
 }
+.projects-45 {
+  position: relative;
+}
 #project-1 {
   width: 98%;
   height: auto;
-  border: 10px solid gray;
-  float: right;
-  margin-left: 5px;
+  border: 10px solid #2A3166;
   margin-bottom: 5px;
+  transition-duration: 500ms;
+  opacity: .75;
+  
 }
-#project-2 {
-  width: 47.5%;
+#project-2{
+  width: 48%;
   height: auto;
-  border: 5px solid gray;
-  float: auto;
+  border: 5px solid #2A3166;
+  transition-duration: 500ms;
+  margin-right: .25%;
+  opacity: .75;
 }
 #project-3 {
-  width: 47.5%;
+  width: 48%;
   height: auto;
-  border: 5px solid gray;
-  float: right;
-  
+  border: 5px solid #2A3166;
+  transition-duration: 500ms;
+  opacity: .75;
+}
+#project-4 {
+  width: 48%;
+  height: auto;
+  border: 5px solid #2A3166;
+  transition-duration: 500ms;
+  margin-right: .25%;
+  opacity: .75;
+}
+#project-5 {
+  width: 48%;
+  height: auto;
+  border: 5px solid #2A3166;
+  transition-duration: 500ms;
+  opacity: .75;
+}
+.bottom-4 {
+  margin: 0px 0px 5px 0px;
+  padding-bottom: 5px;
+  width: 101.5%;
+}
+
+
+
+
+
+
+/* Hover Effects */
+#project-2:hover{
+  cursor: pointer;
+  opacity: 1;
+} #project-3:hover {
+  cursor: pointer;
+  opacity: 1;
+} #project-4:hover {
+  cursor: pointer;
+  opacity: 1;
+} #project-5:hover {
+  cursor: pointer;
+  opacity: 1;
+} #project-1:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 
@@ -314,19 +377,29 @@ h2 {
     align-items: center;
     max-width: 660px;
   }
-  .projects-23 {
-    flex-direction: column;
+  #project-4 {
+    width: 90%;
+    border: 5px solid gray;;
+    float: none;
+    align-items: center;
+    max-width: 660px;
+    margin-left: 0%;
   }
-  .bbottom-4 {
-    padding: 0;
-    width: 100%;
-    max-width: auto;
+  #project-5 {
+    width: 90%;
+    margin: 0;
+    border: 5px solid gray;
+    float: none;
+    align-items: center;
+    max-width: 660px;
+  }
+  .bottom-4 {
+    margin: 0%;
+    padding-bottom: 0%;
+    width: auto;
   }
   .bottom-5 {
     align-items: center;
-  }
-  .smaller-sec {
-    width: 100%;
   }
 }
 
@@ -362,9 +435,5 @@ h2 {
 
 
 /* Fixing Projects */
-@media screen and (max-width: 1080px){#project-2 {margin-left: -4px;}}
-@media screen and (max-width: 980px){#project-2 {margin-left: -5.5px;}}
-@media screen and (max-width: 945px){#project-2 {margin-left: 0px; margin-right: 0px;}}
-
-@media screen and (min-width: 1610px){#project-2 {margin-left: 3px;}}
-@media screen and (min-width: 1800px){#project-2 {margin-left: 7.3px;}}
+@media screen and (max-width: 1200px) {#project-2 {margin-right: 0%;}}
+@media screen and (max-width: 1200px) {#project-4 {margin-right: 0%;}}
