@@ -1,0 +1,370 @@
+/* Universal */
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  line-height: 25px;
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: #2A3166;
+}
+
+
+
+
+
+/* Colors */
+header{
+  background-color: #F1F1F5;
+}
+footer {
+  background-color: #F1F1F5;
+}
+body {
+  background-color: #F1F1F5;
+}
+.titles-main {
+  color:#2A3166;
+}
+.header-name {
+  color: #2A3166;
+}
+.top-links {
+  color: #2A3166;
+}
+.bottom-links {
+  color: #2A3166;
+}
+
+
+
+
+
+/* Header */
+header {
+  padding: 13px 0 13px 0;
+  border-bottom: 2px solid black;
+}
+.header-name {
+  padding-left: 70px;
+  display: inline-block;
+  font-size: 50px;
+}
+.top-nav {
+  float: right;
+  font-weight: bold;
+  font-size: 32px;
+}
+#contact-link {
+  padding-right: 70px;
+}
+.top-links {
+  padding: 13px 0 0 30px;
+  text-decoration: underline;
+}
+
+
+
+
+
+/* Footer */
+footer {
+  margin-bottom: 20px;
+}
+.bottom-nav {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 32px 0 32px 0;
+  text-align: center;
+
+}
+.bottom-links {
+  padding: 0 1% 0 1%;
+}
+#email-link {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* Figure #1 */
+.img-1 {
+  position: relative;
+  z-index: -1;
+}
+.figure-caption {
+  padding: 5px;
+  border: 1px solid rgb(241, 241, 0);
+  background-color: yellow;
+  position: relative;
+  display: none;
+}
+
+
+
+
+
+/* Main Sections */
+.main-container {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+h2 {
+  font-size: 50px;
+  line-height: normal;
+  text-align: right;
+}
+
+
+
+
+
+/* Main Titles */
+.titles-main {
+  display: block;
+  max-width: 200px;
+}
+.about-me-title {
+  padding: 0 5px 0 15px;
+}
+.work-title {
+  padding: 0 5px 0 26px;
+}
+.contact-title {
+  padding: 0 0 0 0;
+  margin-left: -15px;
+}
+
+
+
+
+
+/* Projects/Main */
+.main-division {
+  border-left: 2px solid black;
+  margin: 5px 5px 5px 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  width: 100%;
+  max-width: 1400px;
+}
+.projects-23 {
+  position: relative;
+}
+#project-1 {
+  width: 98%;
+  height: auto;
+  border: 10px solid gray;
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+#project-2 {
+  width: 47.5%;
+  height: auto;
+  border: 5px solid gray;
+  float: auto;
+}
+#project-3 {
+  width: 47.5%;
+  height: auto;
+  border: 5px solid gray;
+  float: right;
+  
+}
+
+
+
+
+
+/* Contact Me Section */
+@media screen and (max-width: 1020px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 20% 0 20%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 15% 0 15%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 10% 0 10%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 5% 0 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0%;
+  }
+}
+
+
+
+
+
+/* WHEN max 945px Webpage completely Changes -- Header */
+@media screen and (max-width: 945px) {
+  header {
+    text-align: center;
+  }
+  .top-nav {
+    display: none;
+  }
+  .header-name {
+    padding: 13px 0 13px 0;
+  }
+}
+
+
+
+
+
+/* WHEN max 945px Webpage completely Changes -- Main */
+@media screen and (max-width: 945px) {
+  .main-container {
+    text-align: center;
+    align-items: center;
+  }
+  .main-division {
+    width: 80%;
+    border-left: none;
+    border-top: 2px solid black;
+    padding: 5px 0 0 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  .about-me-title {
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+  }
+  .work-title {
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+  }
+  #contact-section {
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+  }
+  .titles-main {
+    display: block;
+    max-width: 300px;
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+  }
+  .main-container {
+    flex-flow: column;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+
+
+  #project-1 {
+    width: 90%;
+    border: 5px solid gray;
+    float: none;
+    margin-top: 8px;
+    margin: 0;
+    height: auto;
+    max-width: 660px;
+  }
+  #project-2 {
+    width: 90%;
+    border: 5px solid gray;;
+    float: none;
+    align-items: center;
+    max-width: 660px;
+    margin-left: 0%;
+  }
+  #project-3 {
+    width: 90%;
+    margin: 0;
+    border: 5px solid gray;
+    float: none;
+    align-items: center;
+    max-width: 660px;
+  }
+  .projects-23 {
+    flex-direction: column;
+  }
+  .bbottom-4 {
+    padding: 0;
+    width: 100%;
+    max-width: auto;
+  }
+  .bottom-5 {
+    align-items: center;
+  }
+  .smaller-sec {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* Smaller Screens */
+  @media screen and (max-width: 530px) {
+    .contact-title {
+      font-size: 40px;
+    }
+    .work-title {
+      font-size: 40px;
+    }
+    .about-me-title {
+      font-size: 40px;
+    }
+    .header-name {
+      font-size: 40px;
+    }
+    .bottom-nav {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+
+
+
+/* Fixing Projects */
+@media screen and (max-width: 1080px){#project-2 {margin-left: -4px;}}
+@media screen and (max-width: 980px){#project-2 {margin-left: -5.5px;}}
+@media screen and (max-width: 945px){#project-2 {margin-left: 0px; margin-right: 0px;}}
+
+@media screen and (min-width: 1610px){#project-2 {margin-left: 3px;}}
+@media screen and (min-width: 1800px){#project-2 {margin-left: 7.3px;}}
