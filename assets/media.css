@@ -1,0 +1,239 @@
+/* Contact Me Section */
+@media screen and (max-width: 1020px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 20% 0 20%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 15% 0 15%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 10% 0 10%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0 5% 0 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bottom-nav {  
+    flex-direction: column;
+    padding-top: 0%;
+    padding: 0%;
+  }
+}
+
+
+
+
+
+/* WHEN max 945px Webpage completely Changes -- Header */
+@media screen and (max-width: 996px) {
+  header {
+    text-align: center;
+  }
+  .top-nav {
+    display: none;
+  }
+  .header-name {
+    padding: 13px 0 13px 0;
+  }
+}
+
+
+
+
+
+/* WHEN max 945px Webpage completely Changes -- Main */
+@media screen and (max-width: 996px) {
+  .main-container {
+    text-align: center;
+    align-items: center;
+  }
+  .main-division {
+    width: 80%;
+    border-left: none;
+    border-top: 2px solid black;
+    padding: 5px 0 0 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  .about-me-title {
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+  }
+  .work-title {
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+  }
+  #contact-section {
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+  }
+  .titles-main {
+    display: block;
+    max-width: 300px;
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+  }
+  .main-container {
+    flex-flow: column;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .projects-22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 9px;
+  } .projects-44 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  } .project-1 {
+    border: 6px solid gray;
+    border-bottom: none;
+    background-color: gray;
+    margin-bottom: 9px;
+  } #project-1 {
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    margin: 0%;
+    height: auto;
+    max-width: 700px;
+  } .project-2 {
+    width: 98%;
+    border: 6px solid gray;
+    border-bottom: none;
+    background-color: gray;
+    margin-bottom: 8%;
+  } #project-2 {
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    margin: 0;
+    height: auto;
+    max-width: 700px;
+  } .project-3 {
+    width: 98%;
+    border: 6px solid gray;
+    border-bottom: none;
+    background-color: gray;
+    margin-bottom: 9px;
+  } #project-3 {
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    margin: 0;
+    height: auto;
+    max-width: 700px;
+  } .project-4 {
+    width: 98%;
+    border: 6px solid gray;
+    border-bottom: none;
+    background-color: gray;
+    margin-bottom: 9px;
+    margin-bottom: 8%;
+  } #project-4 {
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    margin: 0;
+    height: auto;
+    max-width: 700px;
+  } .project-5 {
+    width: 98%;
+    border: 6px solid gray;
+    border-bottom: none;
+    background-color: gray;
+    margin-bottom: 9px;
+  } #project-5 {
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    margin: 0;
+    height: auto;
+    max-width: 700px;
+  } .bottom-4 {
+    margin: 0%;
+    padding-bottom: 0%;
+    width: auto;
+  } .bottom-5 {
+    align-items: center;
+  }
+
+  .project-1-figcap {
+    display: none;
+  } .project-2-figcap {
+    display: none;
+  } .project-3-figcap {
+    display: none;
+  }
+
+}
+
+
+
+
+/* Top Figcaption */
+@media screen and (max-width: 410px) {
+  .figure-caption {
+    font-size: 16px;
+    margin-top: -60px;
+    margin: -60px % 0% 0%;
+  }
+}
+
+
+
+
+
+
+/* Smaller Screens */
+  @media screen and (max-width: 530px) {
+    .contact-title {
+      font-size: 40px;
+    }
+    .work-title {
+      font-size: 40px;
+    }
+    .about-me-title {
+      font-size: 40px;
+    }
+    .header-name {
+      font-size: 40px;
+    }
+    .bottom-nav {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+
+
+
+/* Fixing Projects */
+@media screen and (max-width: 1200px) {#project-2 {margin-right: 0%;}}
+@media screen and (max-width: 1200px) {#project-4 {margin-right: 0%;}}
