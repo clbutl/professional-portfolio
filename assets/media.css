@@ -39,6 +39,50 @@
 
 
 
+/* Change Top Caption */
+@media screen and (max-width: 1300px) {
+  .figure-caption {
+    padding: 10px;
+    background-color: #E7F6F2;
+    position: relative;
+    z-index: 1;
+    margin-top: -75px;
+    margin-right: 50px;
+    float: right;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #395B64;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 885px) {
+  .figure-caption {
+    padding: 10px;
+    background-color: #E7F6F2;
+    position: relative;
+    z-index: 1;
+    margin-top: -60px;
+    margin-right: 50px;
+    float: right;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #395B64;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 730px) {
+  .figure-caption {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
 /* WHEN max 945px Webpage completely Changes -- Header */
 @media screen and (max-width: 996px) {
   header {

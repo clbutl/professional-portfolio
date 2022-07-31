@@ -114,6 +114,8 @@ footer {
 .img-1 {
   position: relative;
   z-index: -1;
+  max-width: 100%;
+  height: auto;
 }
 .figure-caption {
   padding: 10px;
