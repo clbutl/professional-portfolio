@@ -16,10 +16,6 @@ a {
   padding: 0%;
 }
 
-
-
-
-
 /* Colors */
 header{
   background-color: #2C3333;
@@ -49,10 +45,6 @@ body {
   color: #E7F6F2;
 }
 
-
-
-
-
 /* Header */
 header {
   padding: 13px 0 13px 0;
@@ -74,15 +66,13 @@ header {
 .top-links {
   padding: 13px 0 0 30px;
   text-decoration: underline;
+  opacity: 1;
+  transition-duration: 500ms;
 }
 .top-links:hover {
   opacity: .75;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 }
-
-
-
-
 
 /* Footer */
 footer {
@@ -97,18 +87,15 @@ footer {
 .bottom-links {
   padding: 0 1% 0 1%;
   opacity: .75;
+  transition-duration: 500ms;
 }
 #email-link {
   text-decoration: underline;
 }
 .bottom-links:hover {
   opacity: 1;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 }
-
-
-
-
 
 /* Figure #1 */
 .img-1 {
@@ -131,10 +118,6 @@ footer {
   font-weight: bold;
 }
 
-
-
-
-
 /* Main Sections */
 .main-container {
   display: flex;
@@ -148,10 +131,6 @@ h2 {
   line-height: normal;
   text-align: right;
 }
-
-
-
-
 
 /* Main Titles */
 .titles-main {
@@ -169,10 +148,6 @@ h2 {
   margin-left: -15px;
 }
 
-
-
-
-
 /* Projects/Main */
 .main-division {
   border-left: 2px solid black;
@@ -182,12 +157,12 @@ h2 {
   max-width: 1400px;
 }
 
-
 /* Project 1-- */
 #project-1 {
   width: 100%;
   height: auto;
   opacity: .8;
+  transition-duration: 500ms;
   padding: 0%;
   background-color: white;
 } .project-1 {
@@ -213,10 +188,6 @@ h2 {
   padding-top: 5px;
 }
 
-
-
-
-
 /* Project 2-3- */
 .projects-22 {
   display: flex;
@@ -227,6 +198,7 @@ h2 {
   padding: 0%;
   opacity: .8;
   padding: 0%;
+  transition-duration: 500ms;
 } .project-2 {
   width: 48%;
   position: relative;
@@ -239,6 +211,7 @@ h2 {
   height: auto;
   opacity: .8;
   padding: 0%;
+  transition-duration: 500ms;
 } .project-3 {
   width: 48%;
   position: relative;
@@ -251,11 +224,13 @@ h2 {
   height: auto;
   opacity: .8;
   padding: 0%;
+  transition-duration: 500ms;
 } #project-5 {
   width: 100%;
   height: auto;
   opacity: .8;
   padding: 0%;
+  transition-duration: 500ms;
 } .projects-44 {
   display: flex;
   justify-content: space-between;
@@ -292,29 +267,34 @@ h2 {
   padding-top: 5px;
 }
 
-
-
-
-
 /* Hover Effects */
 #project-1:hover {
   cursor: pointer;
   opacity: 1;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 } #project-2:hover {
   cursor: pointer;
   opacity: 1;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 } #project-3:hover {
   cursor: pointer;
   opacity: 1;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 } #project-4:hover {
   cursor: pointer;
   opacity: 1;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 } #project-5:hover {
   cursor: pointer;
   opacity: 1;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
+}
+
+.repo-links {
+  color: #E7F6F2;
+  opacity: 1;
+  transition-duration: 500ms;
+} .repo-links:hover {
+  opacity: .7;
+  transition-duration: 500ms;
 }
